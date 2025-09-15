@@ -1,0 +1,33 @@
+
+
+r0 = 5.00000000000000000000e+03;
+sigmaxion = 3.42672917729586686164e+02;
+sigmavxion = 1.00812383135607866568e-08;
+sigmavxatom = 4.47093372999080656691e-09;
+tfinal = 4.13413733351701562500e+13;
+rtol = 1.00000000000000003643e-10;
+atol = 9.99999999999999945153e-21;
+C4 = 1.59545500000000004093e+02;
+C8 = 2.00949488627505397797e+09;
+mion = 3.11597855084210925270e+05;
+matom = 1.58425744542229716899e+05;
+ax = -2.98199999999999984177e-04;
+az = 5.96399999999999968353e-04;
+qx = 2.19000000000000000222e-01;
+OmegaRF = 3.79957461514366392655e-10;
+rbounce = 7.08448174250339519631e+01;
+
+There are 2 GPUs available.
+Starting parallel pool (parpool) using the 'Processes' profile ...
+Preserving jobs with IDs: 3 4 5 7 11 53 because they contain crash dump files.
+You can use 'delete(myCluster.Jobs)' to remove all jobs created with profile Processes. To create 'myCluster' use 'myCluster = parcluster('Processes')'.
+Connected to parallel pool with 2 workers.
+It took 29531.685 seconds.
+The probability of forming a complex is 0.22478459591812499641.
+The probability of leaving the complex is 0.99996961388341665256.
+The most annoying trajectory was theta=1.19516875206675310395, phi=0.00298063819126166349. It took 1000000 timesteps.
+The average number of timesteps was 302173.
+[Warning: MATLAB has disabled some advanced graphics rendering features by
+switching to software OpenGL. For more information, click <a
+href="matlab:opengl('problems')">here</a>.] 
+Parallel pool using the 'Processes' profile is shutting down.
